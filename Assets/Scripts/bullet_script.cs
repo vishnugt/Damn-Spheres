@@ -9,7 +9,7 @@ public class bullet_script : MonoBehaviour {
 	float radius=2.7f;
 	Vector3 movePosition;
 	// Use this for initialization
-	public float speed = 2f + ui_script.level;
+	public float speed = 2f + ui_script.level	;
 	void Start () {
 		
 		float angle = Random.Range(0f, 2 * Mathf.PI);

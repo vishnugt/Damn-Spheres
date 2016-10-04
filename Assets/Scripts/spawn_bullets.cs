@@ -5,7 +5,7 @@ public class spawn_bullets : MonoBehaviour {
 
 	public GameObject bullet;
 	public GameObject player;
-	public GameObject villain;
+	public GameObject villain;	
 	private float nextActionTime2 = 0.11f;
 	public float period2 = 0.1f;	
 
